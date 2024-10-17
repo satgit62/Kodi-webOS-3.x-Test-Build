@@ -1,0 +1,6 @@
+#!/bin/sh
+
+jailer -S -t native_devmode -p /media/developer/apps/usr/palm/applications/org.xbmc.kodi -i org.xbmc.kodi
+mount -o bind /tmp/usb/sda/sda1/.kodi /var/palm/jail/org.xbmc.kodi/media/developer/apps/usr/palm/applications/org.xbmc.kodi/.kodi
+
+
