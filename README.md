@@ -24,6 +24,6 @@ The .kodi folder must be mounted with the following single commands (one after t
 To make this permanent, you must copy the kodi file/script to `/var/lib/webosbrew/init.d/`. 
 
 # Attention! 
-The kodi script file must have the authorization 775 in order to be executed. If this is not the case, make the file (kodi) executable with chmod +x, or set the permission to 775 directly in the ininit.d folder with FileZilla.
+The kodi script file must have the authorization 775 in order to be executed. If this is not the case, make the file (kodi) executable with chmod +x, or set the permission to 775 directly in the `ininit.d` folder with FileZilla.
 
 Source :https://github.com/Diniboy1123/xbmc-webos
