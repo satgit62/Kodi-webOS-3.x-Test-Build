@@ -6,3 +6,5 @@ https://github.com/Diniboy1123/xbmc-webos/releases/download/before-rebase/org.xb
 Immediately after installation, enter the following command in Terminal or SSH and only then start Kodi:
 
 `cp /usr/lib/libwayland-egl.so /media/developer/apps/usr/palm/applications/org.xbmc.kodi/lib/libwayland-egl.so.1`
+
+Source:https://github.com/Diniboy1123/xbmc-webos
