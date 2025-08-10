@@ -26,4 +26,13 @@ To make this permanent, you must copy the kodi file/script to `/var/lib/webosbre
 # Attention! 
 The kodi script file must have the authorization 775 in order to be executed. If this is not the case, make the file (kodi) executable with chmod +x, or set the permission to 775 directly in the `ininit.d` folder with FileZilla.
 
+Known issues:
+
+When Kodi encounters an error, it creates “core dump” files ranging in size from 300 to 500 MB without you noticing. Sometimes three to five such files accumulate and take up all the storage space. In this case, Kodi cannot be started at all. Therefore, check the directory regularly and delete all “core.xxxx” files. These “core dump” image data are stored in the directory ```/media/developer/apps/usr/palm/applications/org.xbmc.kodi/```. See image.
+
+![11](https://github.com/user-attachments/assets/23036543-0a1e-47bb-ad4c-2dcb971d84c6)
+
+Note:
+If there is no storage space available on your device for the Kodi installation, check the ```/media/preload/storedemo/``` directory for demonstration videos that are often used in retail stores to showcase the devices and delete them.
+
 Source: https://github.com/Diniboy1123/xbmc-webos
